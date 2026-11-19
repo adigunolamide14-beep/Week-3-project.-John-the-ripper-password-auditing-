@@ -1,101 +1,90 @@
-# 🔐 Password Auditing with John the Ripper (JTR)
+# 🔐 Password Auditing & Cracking with John the Ripper (JTR)
 
-![Domain](https://img.shields.io/badge/Domain-Cybersecurity-red)
+![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-red)
 ![Tool](https://img.shields.io/badge/Tool-John%20the%20Ripper-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![Training](https://img.shields.io/badge/Batch-B084-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## Project Overview
+## 📌 Project Overview
 
-This hands-on exercise was completed during **Week 3, Project Module 1** of my cybersecurity internship practice at **NETWORKWALKS**, under the guidance of **Waqas Karim (CCIE)**.
+This project was completed during **Week 3, Project Module 1** of my cybersecurity training at **NETWORKWALKS (Batch B084)**.
 
-The project explored password security, password-hash analysis, and dictionary-based password auditing using **John the Ripper (JTR)** and its graphical interface, **Johnny**. A practice PDF supplied for the training lab was used.
+The practical focused on password security, password recovery, hash analysis, and dictionary-based password auditing using **John the Ripper (JTR)** and its graphical interface, **Johnny**.
 
-## Objectives
+The exercise provided practical experience in understanding how weak passwords can be identified through authorized security testing.
 
-- Understand how a password-protected PDF can be audited.
-- Learn the basic workflow for extracting and preparing a password hash.
-- Use John the Ripper/Johnny for an authorized dictionary-based audit.
-- Understand why weak or commonly used passwords are vulnerable.
-- Reinforce strong, unique password practices.
+## 🎯 Project Objectives
 
-## Tools and Technologies
+- Understand password auditing and recovery.
+- Learn how password hashes are extracted from protected PDF files.
+- Configure and use John the Ripper on Windows.
+- Understand dictionary-based password attacks.
+- Identify the security risks associated with weak passwords.
+- Learn the importance of strong and unique passwords.
 
-| Tool | Purpose |
+## 🛠️ Tools & Technologies
+
+| Tools | Purpose |
 |---|---|
 | John the Ripper (JTR) | Password auditing and recovery |
-| Johnny GUI | Graphical interface for John the Ripper |
-| Windows | Operating system used |
-| PDF hash extraction utility | Extracting the hash from the practice PDF |
-| Dictionary-based auditing | Testing candidate passwords against the extracted hash |
+| Johnny GUI | Graphical interface for JTR |
+| Windows | Operating system |
+| PDF Hash Extractor | Extracting PDF password hashes |
+| Dictionary-Based Auditing | Testing password candidates |
 
-## Practical Workflow
+## 🧪 What I Practiced
 
-1. Visited the official John the Ripper project page and obtained the required software.
-2. Installed Johnny on Windows.
-3. Configured Johnny to use the John the Ripper executable.
-4. Extracted the hash from the authorized practice PDF.
-5. Loaded the hash into Johnny.
-6. Ran the dictionary-based password audit.
-7. Verified the recovered password by opening the practice PDF.
+1. Downloading John the Ripper from its official project website.
+2. Installing and configuring Johnny on Windows.
+3. Connecting Johnny to the John the Ripper executable.
+4. Extracting password hashes from a protected PDF.
+5. Preparing and importing hash data into Johnny.
+6. Performing dictionary-based password recovery.
+7. Verifying the recovered password by opening the protected PDF.
 
-## Screenshots
+## 📸 Project Screenshots
 
-The screenshots below document the installation, configuration, hash extraction, auditing, and verification stages. Passwords, hash values, and the unique training flag have been redacted from the public copies.
+The following screenshots document the different stages of my practical exercise.
 
-### 1. John the Ripper project page
-![John the Ripper project page](screenshots/01-john-the-ripper-official-page.png)
+## 💡 Key Learning Outcomes
 
-### 2. Johnny setup wizard
-![Johnny setup wizard](screenshots/02-johnny-setup-welcome.png)
+This practical helped me understand:
 
-### 3. Ready to install
-![Johnny ready to install](screenshots/03-johnny-ready-to-install.png)
+- How password hashes can be extracted and analyzed.
+- How dictionary-based attacks work.
+- Why weak and commonly used passwords are vulnerable.
+- How password auditing helps identify security weaknesses.
+- The importance of strong, unique passwords and proper password protection.
 
-### 4. Installation progress
-![Johnny installation progress](screenshots/04-johnny-installation-progress.png)
+It also improved my understanding of practical cybersecurity assessment techniques and password security.
 
-### 5. Johnny configuration
-![Johnny configuration](screenshots/05-johnny-configuration.png)
+## 🔒 Ethical Considerations
 
-### 6. PDF hash extraction
-![PDF hash extraction with sensitive output redacted](screenshots/06-pdf-hash-extraction-redacted.png)
+All activities were performed as part of an authorized cybersecurity training exercise using the provided practice file.
 
-### 7. Johnny audit result
-![Johnny audit result with password and hash redacted](screenshots/07-johnny-audit-result-redacted.png)
+The techniques demonstrated in this project should only be used on files and systems you own or have explicit permission to test.
 
-### 8. Johnny audit overview
-![Johnny audit overview with password and hash redacted](screenshots/08-johnny-audit-overview-redacted.png)
+Sensitive passwords, hashes, and private information should not be published in a public repository.
 
-### 9. PDF password verification
-![PDF password prompt with password redacted](screenshots/09-pdf-password-prompt-redacted.png)
+## 👨‍💻 About the Author
 
-### 10. Training completion
-![Training completion certificate with unique flag redacted](screenshots/10-training-completion-redacted.png)
+**Adigun Olamide Precious**
 
-## Key Learnings
+- Cybersecurity Student
+- Learning Cybersecurity and Ethical Hacking
+- Practical Interest: Password Auditing and Security Assessment
+- Training Organization: NETWORKWALKS
+- Training Batch: B084
 
-- Password hashes can be extracted from supported protected files for authorized auditing.
-- Dictionary-based attacks test candidate words against password hashes.
-- Weak and reused passwords can be easier to guess.
-- Strong, unique passwords help reduce the risk of unauthorized access.
-- Password auditing is useful for identifying weaknesses in a controlled and authorized environment.
+I am continuously developing my cybersecurity skills through practical projects, hands-on exercises, and structured learning.
 
-## Ethical Use and Safety
+## 🙏 Acknowledgement
 
-All testing documented here was carried out in an authorized cybersecurity training lab using the provided practice file. Do not test files, accounts, or systems unless you own them or have explicit permission.
-
-**Public portfolio note:** The screenshots in this repository are sanitized. Do not publish real passwords, reusable hashes, private documents, or challenge tokens/flags.
-
-## Acknowledgement
-
-Special thanks to **NETWORKWALKS** and **Waqas Karim (CCIE)** for the learning opportunity and practical guidance.
-
-## Author
-
-**Adigun Olamide Precious**  
-Cybersecurity Student | Aspiring Cybersecurity Professional
+Special appreciation to **NETWORKWALKS** and **Waqas Karim (CCIE)** for the training, mentorship, and practical learning opportunities.
 
 ---
 
-⭐ This project is part of my ongoing cybersecurity learning journey.
+🔐 **Learning Cybersecurity, One Practical Project at a Time!**
+
+⭐ Thank you for visiting my repository.
